@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+#button_menu{
+    display: flex;
+    background-color: blanchedalmond;
+    width: 40vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 20vw;
+}
+
+.buttons{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 1vw;
+    height: 4.5vw;
+    width: 7vw;
+    font-size: 1vw;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 10vw;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: rgb(64, 142, 173);
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+}
+
+#vibes{
+    display: none;
+}
+
+#time{
+    display: none;
+}
+
+#farewell{
+    display: none;
+    justify-content: center;
+}
